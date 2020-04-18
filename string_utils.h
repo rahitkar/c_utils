@@ -10,4 +10,6 @@ typedef struct
 
 void print_string (char **, int);
 
+unsigned long count_length (char*);
+
 #endif

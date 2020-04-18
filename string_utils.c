@@ -7,3 +7,9 @@ void print_string (char **string, int string_length) {
   }
   printf("\n");
 }
+
+unsigned long count_length (char *text) {
+  int count;
+  for ( count = 0; text[count] != '\0'; count++);
+  return count;
+}
